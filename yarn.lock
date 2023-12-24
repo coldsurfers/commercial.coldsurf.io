@@ -69,6 +69,20 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
+"@coldsurfers/design-tokens@1.10.0":
+  version "1.10.0"
+  resolved "https://npm.pkg.github.com/download/@coldsurfers/design-tokens/1.10.0/5de0ababed32a75c695afe2c506266568a9431fe#5de0ababed32a75c695afe2c506266568a9431fe"
+  integrity sha512-sMSCk9ONXaNCYxsD5vdn7nal1KZWqwi2RdjXghusfK7RMmTW//Bxpcl/xseuuozMakGPHKD3nji65rl1180Wvg==
+  dependencies:
+    open-color "^1.9.1"
+
+"@coldsurfers/ocean-road@1.5.1-rc.4":
+  version "1.5.1-rc.4"
+  resolved "https://npm.pkg.github.com/download/@coldsurfers/ocean-road/1.5.1-rc.4/1fdda4c202431757e90521518a8db558ee57318f#1fdda4c202431757e90521518a8db558ee57318f"
+  integrity sha512-o8ogWQzPTttF9KfQiaKV/ULQaahKGoOBZCfu8rkfOxBCTb6SOP7bcZBAUwYj684aXisIyCyOy3T2GasKFiT4Yg==
+  dependencies:
+    "@coldsurfers/design-tokens" "1.10.0"
+
 "@emotion/babel-plugin@^11.11.0":
   version "11.11.0"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.11.0.tgz#c2d872b6a7767a9d176d007f5b31f7d504bb5d6c"
@@ -2883,6 +2897,11 @@ once@^1.3.0:
   integrity sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==
   dependencies:
     wrappy "1"
+
+open-color@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/open-color/-/open-color-1.9.1.tgz#a6e6328f60eff7aa60e3e8fcfa50f53ff3eece35"
+  integrity sha512-vCseG/EQ6/RcvxhUcGJiHViOgrtz4x0XbZepXvKik66TMGkvbmjeJrKFyBEx6daG5rNyyd14zYXhz0hZVwQFOw==
 
 optionator@^0.9.3:
   version "0.9.3"

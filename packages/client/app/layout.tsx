@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { ReactNode } from 'react'
-import GlobalStyle from '@/components/GlobalStyle'
 import LayoutWrapper from '@/components/LayoutWrapper'
 import { MODAL_PORTAL_ID } from '@/libs/constants'
 import { auth } from '@/libs/auth'
+import GlobalStyle from '@/components/GlobalStyle'
 
 const inter = Inter({ subsets: ['latin'] })
 
